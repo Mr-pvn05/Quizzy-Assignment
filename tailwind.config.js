@@ -14,7 +14,7 @@ module.exports = {
       },
       backgroundImage: {
         "gradient": "linear-gradient(to bottom right, #2F3931, #2B2B2B, #2F3931)"
-      }
+      },
     },
   },
   plugins: [],

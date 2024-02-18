@@ -11,7 +11,7 @@ const LeaderBoard = () => {
       <div className="flex gap-2 md:gap-1  flex-col overflow-y-auto h-40">
         {leaderboardData.map((data, index) => (
           <div
-            className="flex justify-between bg-[#4E5957] shadow-box-shadow-inside mx-2 mb-2 rounded-lg p-2 hover:cursor-pointer hover:shadow-box-hover-inside hover:bg-gradient-to-b from-[#6B795E] to-[#5C7772]  transition-all duration-500 ease-in-out"
+            className="flex justify-between bg-[#4E5957] shadow-box-shadow-inside mx-2 mb-2 rounded-lg p-2 hover:cursor-pointer hover:shadow-box-hover-inside hover:bg-gradient-to-b from-[#6B795E] to-[#5C7772] example"
             key={index}
           >
             <div className="flex justify-center items-center gap-1">

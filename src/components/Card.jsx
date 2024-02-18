@@ -7,7 +7,7 @@ import React from "react";
 const Card = () => {
   return (
     <div className="w-full flex items-center justify-center py-4">
-      <div className="w-[75%] md:w-[80%] lg:w-[75%] flex flex-col gap-3 items-center justify-center">
+      <div className="w-[75%] md:w-[80%] lg:w-[75%] 2xl:w-[50%] flex flex-col gap-3 items-center justify-center">
         <div className="flex flex-col items-start w-full">
           <div className="flex gap-1">
             <p className="md:text-[20px] lg:text-3xl font-semibold">Hey, </p>
