@@ -21,7 +21,7 @@ const Card = () => {
         <div className="flex gap-5 w-full flex-wrap">
           {cardData.map((data, index) => (
             <div
-              className="h-[200px] w-[270px] md:w-[200px] md:h-70 lg:w-72 hover:shadow-box-shadow transition-all duration-500 ease-in-out p-5 bg-[#404240]/50 rounded-xl flex justify-center flex-col gap-2 border-[1px] border-white/20 hover:cursor-pointer hover:border-none"
+              className="h-[200px] w-[270px] md:w-[200px] md:h-70 lg:w-72 hover:shadow-box-shadow transition-all duration-500 ease-in-out p-5 bg-[#404240] rounded-xl flex justify-center flex-col gap-2 border-[1px] border-white/20 hover:cursor-pointer hover:border-none"
               key={index}
             >
               <div>
