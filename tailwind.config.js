@@ -11,6 +11,9 @@ module.exports = {
         "box-shadow": "rgba(136, 165, 191, 0.48) 3px 1px 8px 0px, rgba(136, 165, 191, 0.8) -3px -1px 8px 0px",
         "box-shadow-inside": "inset rgb(204, 219, 232, 0.3) 1px 1px 5px 1px",
         "box-hover-inside": "rgb(0, 0, 0, 0.2) 1px 1px 5px 2px"
+      },
+      backgroundImage: {
+        "gradient": "linear-gradient(to bottom right, #2F3931, #2B2B2B, #2F3931)"
       }
     },
   },
