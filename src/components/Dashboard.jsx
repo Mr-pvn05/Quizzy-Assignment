@@ -6,7 +6,7 @@ import { CiLogout } from "react-icons/ci";
 
 const Dashboard = () => {
   return (
-    <div className="md:w-[30vw] p-4 flex flex-col gap-3 bg-gradient-to-b from-[#35443F] to-[#2D2D2D]">
+    <div className="md:w-[30vw] p-4 flex flex-col gap-3 bg-gradient-to-b from-[#35443F] to-[#2D2D2D] shadow-2xl">
       <div className="flex cursor-pointer">
         <div className="bg-white rounded-full h-5 w-5 mr-2"></div>
         <p className="opacity-90">

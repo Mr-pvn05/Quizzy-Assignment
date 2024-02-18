@@ -21,7 +21,7 @@ const Card = () => {
         <div className="flex gap-5 w-full flex-wrap">
           {cardData.map((data, index) => (
             <div
-              className="h-[200px] w-[270px] md:w-[200px] md:h-70 lg:w-72 hover:shadow-box-shadow transition-all duration-500 ease-in-out p-5 bg-[#404240] rounded-xl flex justify-center flex-col gap-2 border-[1px] border-white/20 hover:cursor-pointer hover:border-none"
+              className="h-[200px] w-[270px] md:w-[200px] md:h-70 lg:w-72 hover:bg-gradient-to-b from-[#6B795E] to-[#5C7772] transition-all duration-500 ease-in-out p-5 bg-[#404240] rounded-xl flex justify-center flex-col gap-2 border-[1px] border-white/20 hover:cursor-pointer"
               key={index}
             >
               <div>
@@ -34,7 +34,7 @@ const Card = () => {
               </div>
               <FaArrowTrendUp color="white" size={50} />
               <h2 className="text-3xl md:font-semibold">{data.title}</h2>
-              <p className="text-xs opacity-70 font-extralight leading-3">
+              <p className="text-xs opacity-70 font-normal leading-3">
                 {data.description}
               </p>
             </div>
